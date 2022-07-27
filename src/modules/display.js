@@ -9,7 +9,7 @@ export default class ListObj {
   static displayAny(scores) {
     const list = document.querySelector('.scores-ul');
     for (let i = 0; i < listObj.length; i += 1) {
-      list.innerHTML += `<li class="li">${scores[i].name}: ${scores[i].scpres}</li>`;
+      list.innerHTML += `<li class="li">${scores[i].name}: ${scores[i].scores}</li>`;
     }
   }
 }
