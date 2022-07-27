@@ -1,65 +1,64 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 .wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    gap: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 200px;
 }
 
 h1 {
-    margin-left: 420px;
+  margin-left: 420px;
 }
 
 .recent-refresh {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 17px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 30px;
 }
 
 .refresh-btn {
-    border: black 2px solid;
-    border-radius: 3px;
-    padding: 3px;
-    cursor: pointer;
+  border: black 2px solid;
+  border-radius: 3px;
+  padding: 3px;
+  cursor: pointer;
 }
 
 .scores-ul {
-    list-style-type: none;
-    border: black 2px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-
+  list-style-type: none;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .li {
-    align-self: flex-start;
-    width: 100%;
+  align-self: flex-start;
+  width: 100%;
 }
 
 ul .li:nth-of-type(even) {
-    background-color: rgb(182, 182, 182);
+  background-color: rgb(182, 182, 182);
 }
 
 .input-1 {
-    margin-bottom: 30px;
-    margin-top: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .input-3 {
-    margin-left: 96px;
-    border: black 2px solid;
-    border-radius: 3px;
-    padding: 3px;
-    cursor: pointer;
+  margin-left: 96px;
+  border: black 2px solid;
+  border-radius: 3px;
+  padding: 3px;
+  cursor: pointer;
 }
-
