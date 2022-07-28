@@ -12,7 +12,8 @@
         <section class="display-section">
         <div class="recent-refresh">
             <h2>Recent Scores</h2>
-            <small><input class="refresh-btn" type="submit" value="Refresh"></small>
+            <small><input class="refresh-btn" type="submit" value="Refresh" onclick="window.location.reload();"
+              ></small>
         </div>
 
         <ul class="scores-ul">
@@ -22,8 +23,8 @@
         <div class="add-section">
           <h3>Add your score</h3>
           
-            <input type="text" class="input-1" id="fname" name="fname" placeholder="Your Name"><br>
-            <input type="text" class="input-2" id="lname" name="lname" placeholder="Your Score"><br><br>
+            <input type="text" class="input-1" id="name" name="fname" placeholder="Your Name"><br>
+            <input type="number" class="input-2" id="score" name="lname" placeholder="Your Score"><br><br>
             <input type="submit" class="input-3" value="Submit">
           
           

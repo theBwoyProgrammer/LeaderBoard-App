@@ -1,6 +1,11 @@
 import './styles.css';
 
-import ListObj from './modules/display';
-import { listObj } from './modules/object';
+import apiSend from './modules/api';
+import getData from './modules/get';
 
-ListObj.displayAny(listObj);
+getData();
+const submitBtn = document.querySelector('.input-3');
+submitBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  apiSend();
+});
