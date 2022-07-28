@@ -4,8 +4,6 @@
 
 > Leader Board App
 
-[Live Demo](https://hatimdev-he.github.io/LeaderBoard-App/)
-
 ## About Project
 
 A leader board is a design pattern containing a list of rankings representing performance in a particular category or overall standings. It helps to show users exactly how they are performing in relation to others, which can increase competitiveness.
