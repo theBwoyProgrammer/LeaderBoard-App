@@ -8,9 +8,8 @@
 body {
   margin-top: 50px;
   font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to right, rgb(152, 152, 251), rgb(175, 57, 175));
-  }
-
+  background-image: linear-gradient(to right, rgb(152, 152, 251), rgb(175, 57, 175));
+}
 
 .wrapper {
   display: flex;
