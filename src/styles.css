@@ -85,4 +85,6 @@ ul .li:nth-of-type(even) {
 
 .add-section {
   width: 200px;
+  margin-left: 95px;
+  margin-bottom: 100px;
 }

@@ -9,4 +9,6 @@ submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
   apiSend();
   alert('Added successfully');
+  document.getElementById('name').value = '';
+  document.querySelector('.input-2').value = '';
 });
