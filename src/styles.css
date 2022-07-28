@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
+
+body {
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, rgb(152, 152, 251), rgb(175, 57, 175));
+  }
+
 
 .wrapper {
   display: flex;
@@ -13,7 +22,8 @@
 }
 
 h1 {
-  margin-left: 420px;
+  margin-left: 550px;
+  margin-bottom: 50px;
 }
 
 .recent-refresh {
@@ -39,11 +49,14 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  width: 150%;
+  height: 80%;
 }
 
 .li {
   align-self: flex-start;
   width: 100%;
+  font-size: 22px;
 }
 
 ul .li:nth-of-type(even) {
@@ -53,12 +66,23 @@ ul .li:nth-of-type(even) {
 .input-1 {
   margin-bottom: 30px;
   margin-top: 20px;
+  height: 30px;
+  width: 100%;
+}
+
+.input-2 {
+  height: 30px;
+  width: 100%;
 }
 
 .input-3 {
-  margin-left: 96px;
+  margin-left: 150px;
   border: black 2px solid;
   border-radius: 3px;
   padding: 3px;
   cursor: pointer;
+}
+
+.add-section {
+  width: 200px;
 }

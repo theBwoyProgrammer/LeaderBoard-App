@@ -8,4 +8,5 @@ const submitBtn = document.querySelector('.input-3');
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
   apiSend();
+  alert('Added successfully');
 });
