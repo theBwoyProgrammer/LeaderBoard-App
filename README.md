@@ -4,7 +4,7 @@
 
 > Leader Board App
 
-[Live Demo](https://hatimdev-he.github.io)
+[Live Demo](https://hatimdev-he.github.io/LeaderBoard-App/)
 
 ## About Project
 
